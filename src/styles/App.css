@@ -1,3 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+  }
+  
+  .app-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  .navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #007bff !important;
+  }
+  
+  .nav-link {
+    font-weight: 500;
+  }
+  
+  .home-container {
+    text-align: center;
+    padding: 4rem 0;
+  }
+  
+  .home-container h1 {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+  }
+  
+  .home-container p {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-bottom: 2rem;
+  }
+  
+  .feature-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .feature-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .feature-card h3 {
+    margin: 1rem 0;
+    color: #007bff;
+  }
+  
+  .feature-card p {
+    margin-bottom: 1.5rem;
+    color: #6c757d;
+  }
+  
+  .footer {
+    margin-top: 2rem;
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+  }
+  
 .app-container {
     min-height: 100vh;
     display: flex;
